@@ -1,0 +1,33 @@
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-container {
+  width: 100%;
+  font-family: sans-serif;
+  color: #2d2d2d;
+}
+
+.left-column {
+  float: left;
+  width: 40%;
+}
+
+.left-column-content {
+  padding: 50px 30px 30px 30px
+}
+
+.right-column {
+  width: 60%;
+  overflow: auto;
+}
+
+.credits {
+  padding-left: 30px;
+  clear: both;
+}
+
+a {
+  color: rgb(46, 171, 97);
+}

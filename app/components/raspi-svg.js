@@ -1,15 +1,11 @@
-// raspi-svg.js
-
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  showGpioDescription: false,
+  showGpio: false, // boolean controls whether to show the description for GPIO in the template
   actions: {
     toggleGpio() {
+      // changes the value of showGpio to either true or false
       this.toggleProperty('showGpioDescription');
     }
   }
 });
-
-// raspi-svg.hbs
-<g id="gpio" {{action 'toggleGpio'}}>...</g>
